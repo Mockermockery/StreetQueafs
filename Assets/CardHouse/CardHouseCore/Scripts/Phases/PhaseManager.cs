@@ -14,17 +14,17 @@ namespace CardHouse
         public List<Phase> Phases;
         public Phase CurrentPhase => (CurrentPhaseIndex >= 0 && CurrentPhaseIndex < Phases.Count) ? Phases[CurrentPhaseIndex] : null;
         int CurrentPhaseIndex = 0;
-        [SerializeField] private AudioClip damagesound;
+        [SerializeField] private AudioClip[] damagesoundClips;
         
-        public void playsoundtest()
-        {
-            Debug.Log("log my dick");
-            SoundFXManager.instance.PlaySoundFXClip(damagesound, transform, 1f);
-        }
-        public void OnEnable()
-        {
-            playsoundtest();
-        }
+        //public void playsoundtest()
+        //{
+        //    Debug.Log("log my dick");
+        //    SoundFXManager.instance.PlaySoundFXClip(damagesound, transform, 1f);
+        //}
+        //public void OnEnable()
+        //{
+        //    playsoundtest();
+        //}
         public int PlayerIndex
         {
             get { return CurrentPhase.PlayerIndex; }
@@ -82,12 +82,18 @@ namespace CardHouse
             yield return CurrentPhase.Start();
             OnPhaseChanged?.Invoke(CurrentPhase);
             Debug.Log(phaseCounter);
-            if (phaseCounter == 2) 
-            { 
-                playsoundtest(); 
+
+            if (phaseCounter % 2 == 0) 
+            {
+                Debug.Log("cunt");
+                Invoke("playSound", 1.5f);
+                //playsoundtest(); 
+                //SoundFXManager.instance.PlayRandomSoundFXClip(damagesoundClips, transform, 1f);
+            
             
             }
         }
+        public void playSound(){ SoundFXManager.instance.PlayRandomSoundFXClip(damagesoundClips, transform, 1f); }
 
         public bool IsValidDragStart(CardGroup source, DragAction dragAction)
         {
