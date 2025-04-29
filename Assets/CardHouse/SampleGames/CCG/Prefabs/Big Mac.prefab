@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 4318936903697098333}
   - component: {fileID: 3938110044830137136}
   m_Layer: 0
-  m_Name: 'Big Mac '
+  m_Name: Big Mac
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
