@@ -1,7 +1,6 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace RapidAssetPrototypes.CardHouse.Ccg_Extention.Scripts
+namespace CardHouse.attacking_scripts
 {
     public class PlayAudio : MonoBehaviour
     {

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Commonly_Used_Static_Methods
+namespace CardHouse.attacking_scripts
 {
     public static class CommonlyUsedStaticMethods
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace RapidAssetPrototypes.CardHouse.Ccg_Extention.Scripts
+namespace CardHouse.attacking_scripts
 {
     public class CardCombatManager : MonoBehaviour
     {
