@@ -1513,7 +1513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2054888909894088852, guid: 87f1a8534e86b1647b89173caa696976, type: 3}
       propertyPath: m_text
-      value: 3
+      value: 12345678910
       objectReference: {fileID: 0}
     - target: {fileID: 2054888909894088852, guid: 87f1a8534e86b1647b89173caa696976, type: 3}
       propertyPath: m_fontColor.b
