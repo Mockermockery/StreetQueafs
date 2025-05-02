@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4337898691754630501
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 893297720469351051, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_text
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024145480896842015, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.11000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024145480896842015, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.11000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024145480896842015, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.11000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024145480896842015, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.029
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133636280870892179, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5245282
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133636280870892179, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5245282
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133636280870892179, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5245282
+      objectReference: {fileID: 0}
+    - target: {fileID: 3521188207220219921, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f6db75c828a0dbb47853cfc477a82d1d, type: 3}
+    - target: {fileID: 3946303367560610433, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_Name
+      value: CcgCard BASE Single Use Spell Ducking Variant Player1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123696858319531548, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: Cost.Array.data[0].Cost.Amount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846206871610527872, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_text
+      value: 'Ducking
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5807417637380161737, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_text
+      value: Fighters become <b>stealthed</b> for a turn
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8124813798123529637, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: OnPlay.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8124813798123529637, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: OnPlay.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8124813798123529637, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: OnPlay.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 3518508769350034220}
+    - target: {fileID: 8124813798123529637, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: OnPlay.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8124813798123529637, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: OnPlay.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UseDucking
+      objectReference: {fileID: 0}
+    - target: {fileID: 8124813798123529637, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: OnPlay.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CardHouse.attacking_scripts.Ducking, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8124813798123529637, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: OnPlay.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3946303367560610433, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3518508769350034220}
+  m_SourcePrefab: {fileID: 100100000, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+--- !u!1 &790199085193388004 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3946303367560610433, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+  m_PrefabInstance: {fileID: 4337898691754630501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3518508769350034220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790199085193388004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f0d61d52c98ea45901e8ae69a5038c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duckingSoundClipToPlay: {fileID: 0}
+  playerID: Player1
