@@ -19,7 +19,7 @@ PrefabInstance:
     - target: {fileID: 1934517525526669217, guid: 475160306f15339468b85278aa23197c, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 2c60e3fb17890a140aef70910d8fe558, type: 3}
+      objectReference: {fileID: 21300000, guid: 301293097865ea24a9e4369944a9c983, type: 3}
     - target: {fileID: 5397299675611720048, guid: 475160306f15339468b85278aa23197c, type: 3}
       propertyPath: attack
       value: 0
@@ -35,6 +35,26 @@ PrefabInstance:
     - target: {fileID: 5397299675611720048, guid: 475160306f15339468b85278aa23197c, type: 3}
       propertyPath: currentHealth
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5775553985425423267, guid: 475160306f15339468b85278aa23197c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.09995682
+      objectReference: {fileID: 0}
+    - target: {fileID: 5775553985425423267, guid: 475160306f15339468b85278aa23197c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.09995682
+      objectReference: {fileID: 0}
+    - target: {fileID: 5775553985425423267, guid: 475160306f15339468b85278aa23197c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.09995682
+      objectReference: {fileID: 0}
+    - target: {fileID: 5775553985425423267, guid: 475160306f15339468b85278aa23197c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.021
+      objectReference: {fileID: 0}
+    - target: {fileID: 5775553985425423267, guid: 475160306f15339468b85278aa23197c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.287
       objectReference: {fileID: 0}
     - target: {fileID: 6757997655827379364, guid: 475160306f15339468b85278aa23197c, type: 3}
       propertyPath: m_text
@@ -87,6 +107,10 @@ PrefabInstance:
     - target: {fileID: 7604352137802884445, guid: 475160306f15339468b85278aa23197c, type: 3}
       propertyPath: m_Name
       value: Ccg Card BASE Base PLAYER 1 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7825034615393681982, guid: 475160306f15339468b85278aa23197c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8280912525508271163, guid: 475160306f15339468b85278aa23197c, type: 3}
       propertyPath: m_SizeDelta.x
