@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1342867833532620678, guid: 475160306f15339468b85278aa23197c, type: 3}
+      propertyPath: Cost.Array.data[0].Cost.Amount
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1934517525526669217, guid: 475160306f15339468b85278aa23197c, type: 3}
       propertyPath: m_Size.x
       value: 2.9

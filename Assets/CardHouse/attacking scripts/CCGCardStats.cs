@@ -30,7 +30,6 @@ namespace CardHouse.attacking_scripts
         public GameObject destroyEffect;
         public GameObject hurtEffect;
         public GameObject stealthEffect;
-        public CardOwner thisCardsOwner;
         public string ownerId; // e.g., "Player1", "Player2"
 
         public void Start()
@@ -41,14 +40,6 @@ namespace CardHouse.attacking_scripts
             canBeAttacked = false;
         }
 
-        public void CheckOwnerForThisCard()
-        {
-            if (thisCardsOwner == CardOwner.NoneAssigned)
-            {
-                
-            }
-            Debug.Log("Check Owner");
-        }
         public void Update()
         {
             if (onBoard)
