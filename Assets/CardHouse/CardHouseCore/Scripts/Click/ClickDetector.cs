@@ -1,3 +1,4 @@
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace CardHouse
@@ -6,6 +7,7 @@ namespace CardHouse
     {
         public UnityEvent OnPress;
         public UnityEvent OnButtonClicked;
+        [SerializeField] private AudioClip[] ClickSounds;
 
         public GateCollection<NoParams> ClickGates;
         
@@ -14,6 +16,7 @@ namespace CardHouse
             if (IsActive && ClickGates.AllUnlocked(null))
             {  
                 OnPress.Invoke();
+                
             }
         }
 
@@ -22,6 +25,7 @@ namespace CardHouse
             if (IsActive && ClickGates.AllUnlocked(null))
             {
                 OnButtonClicked.Invoke();
+                SoundFXManager.instance.PlayRandomSoundFXClip(ClickSounds, transform, 1f);
             }
         }
     }
