@@ -189,19 +189,36 @@ namespace CardHouse.attacking_scripts
                     EndGameScript endGame = FindObjectOfType<EndGameScript>();
                     if (endGame != null)
                     {
+                        if (ownerId == "Player1")
+                        {
+                            endGame.EndGame("Player2");
+                        }
+                        else if (ownerId == "Player2")
+                        {
+                            endGame.EndGame("Player1");
+                        }
+                        else
+                        {
+                            endGame.EndGame("Wow");
+                        }
                         Debug.Log("Ending Game");
-                        endGame.EndGame(ownerId); 
                     }
                     else
                     {
                         Debug.Log("No End Game GameObject in Scene");
                     }
                 }
-                Instantiate(destroyEffect, this.transform.position, this.transform.rotation);
+                //Instantiate(destroyEffect, this.transform.position, this.transform.rotation);
+                GameObject destroyingEffect = Instantiate(destroyEffect);
+                destroyingEffect.transform.position = this.transform.position;
+                destroyingEffect.transform.rotation = this.transform.rotation;
+                GameObject destroying2Effect = Instantiate(destroyEffect);
+                destroying2Effect.transform.position = this.transform.position;
+                destroying2Effect.transform.rotation = this.transform.rotation;
                 Card thisCard = gameObject.GetComponent<Card>();
                 Debug.Log($"this is the group we are on {thisCard.Group}", thisCard.Group);
                 thisCard.Group.MountedCards.Remove(thisCard);
-                Destroy(gameObject, 2);
+                Destroy(gameObject, 0.2f);
             }
             else
             {
