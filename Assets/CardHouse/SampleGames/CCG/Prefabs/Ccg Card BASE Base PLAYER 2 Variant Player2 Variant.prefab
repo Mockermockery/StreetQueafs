@@ -73,6 +73,10 @@ PrefabInstance:
       value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7232843357175936313, guid: 000d8dcb5c691ce43b5684e13671b3cc, type: 3}
+      propertyPath: ownerId
+      value: Player2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7232843357175936313, guid: 000d8dcb5c691ce43b5684e13671b3cc, type: 3}
       propertyPath: currentHealth
       value: 25
       objectReference: {fileID: 0}
