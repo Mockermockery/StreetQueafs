@@ -15,7 +15,7 @@ namespace CardHouse
         public Phase CurrentPhase => (CurrentPhaseIndex >= 0 && CurrentPhaseIndex < Phases.Count) ? Phases[CurrentPhaseIndex] : null;
         int CurrentPhaseIndex = 0;
         [SerializeField] private AudioClip[] damagesoundClips;
-        
+        [SerializeField] private AudioClip[] SecondPlayerClips;
         //public void playsoundtest()
         //{
         //    Debug.Log("log my dick");
@@ -83,18 +83,19 @@ namespace CardHouse
             OnPhaseChanged?.Invoke(CurrentPhase);
             Debug.Log(phaseCounter);
 
-            if (phaseCounter % 2 == 0) 
+            if (phaseCounter % 2 == 0)
             {
                 Debug.Log("cunt");
                 Invoke("playSound", 1.5f);
                 //playsoundtest(); 
                 //SoundFXManager.instance.PlayRandomSoundFXClip(damagesoundClips, transform, 1f);
-            
-            
+
+
             }
+            else { Invoke("playSound1", 1.5f); }
         }
         public void playSound(){ SoundFXManager.instance.PlayRandomSoundFXClip(damagesoundClips, transform, 1f); }
-
+        public void playSound1() { SoundFXManager.instance.PlayRandomSoundFXClip(SecondPlayerClips, transform, 1f); }
         public bool IsValidDragStart(CardGroup source, DragAction dragAction)
         {
             if (CurrentPhase == null)
