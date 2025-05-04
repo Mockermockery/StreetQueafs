@@ -14,6 +14,7 @@ namespace CardHouse.attacking_scripts
         public bool isAttacking = false;
         public bool onBoard = false;
         public bool hasStealth = false;
+        public bool isUsingFlyingKick = false;
         [Header("Sounds")]
         public AudioClip startAttackingSoundClipToPlay;
         public AudioClip whenDontAttackSoundClipToPlay;
@@ -40,6 +41,12 @@ namespace CardHouse.attacking_scripts
             canBeAttacked = false;
         }
 
+        public void UseFlyingKick()
+        {
+            isUsingFlyingKick = true;
+            Debug.Log("Use Flying Kick");
+        }
+        
         public void Update()
         {
             if (onBoard)
@@ -152,8 +159,28 @@ namespace CardHouse.attacking_scripts
                 }
             }
 
+            if (isAttacking && isUsingFlyingKick)
+            {
+                Debug.Log("Turn Off Flying Kick For Team");
+                CCGCardStats[] allCards = FindObjectsOfType<CCGCardStats>();
+                foreach (var card in allCards)
+                {
+                    if (card.ownerId == ownerId)
+                    {
+                        Debug.Log("Found Card", card.gameObject);
+                        card.isUsingFlyingKick = false;
+                        Debug.Log($"Stop Using Flying Kick", card.gameObject);
+                    }
+                }
+            }
+            else
+            {
+                if (amount > 0)
+                {
+                    currentHealth -= amount;
+                }
+            }
             isAttacking = false;
-            currentHealth -= amount;
             if (currentHealth <= 0)
             {
                 Instantiate(destroyEffect, this.transform.position, this.transform.rotation);
@@ -169,7 +196,10 @@ namespace CardHouse.attacking_scripts
             }
             else
             {
-                Instantiate(hurtEffect, this.transform.position, this.transform.rotation);
+                if (amount > 0)
+                {
+                    Instantiate(hurtEffect, this.transform.position, this.transform.rotation);
+                }
             }
         }
 
@@ -223,5 +253,6 @@ namespace CardHouse.attacking_scripts
             // Destroy the GameObject after the clip finishes playing
             Destroy(tempGO, audioClipToPlay.length);
         }
+
     }
 }

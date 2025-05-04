@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4481291000611706438
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2024145480896842015, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15040952
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024145480896842015, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15040952
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024145480896842015, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.15040952
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024145480896842015, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.079
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024145480896842015, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.199
+      objectReference: {fileID: 0}
+    - target: {fileID: 3521188207220219921, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6cfd1116f09fe2a449feb314aea0fbb3, type: 3}
+    - target: {fileID: 3946303367560610433, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_Name
+      value: CcgCard BASE Single Use Spell Flying Kick Player1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846206871610527872, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_text
+      value: FLYING KICK
+      objectReference: {fileID: 0}
+    - target: {fileID: 5807417637380161737, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_text
+      value: "Your fighter doesn't take <b>damage</b> on \ntheir next <b>attack</b>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109225141620430521, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8124813798123529637, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: OnPlay.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8124813798123529637, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: OnPlay.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8124813798123529637, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: OnPlay.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 6307723413132332702}
+    - target: {fileID: 8124813798123529637, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: OnPlay.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8124813798123529637, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: OnPlay.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UseFlyingKick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8124813798123529637, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: OnPlay.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CardHouse.attacking_scripts.FlyingKick, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8124813798123529637, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      propertyPath: OnPlay.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3946303367560610433, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6307723413132332702}
+  m_SourcePrefab: {fileID: 100100000, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+--- !u!1 &645325832960431303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3946303367560610433, guid: 126250b3b99435a45ad2fc2c0ab8b8dc, type: 3}
+  m_PrefabInstance: {fileID: 4481291000611706438}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6307723413132332702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645325832960431303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446545381d139da45a4c2bb899add0c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flyingKickSoundClipToPlay: {fileID: 0}
+  playerID: Player1
