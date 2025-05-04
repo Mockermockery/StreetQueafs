@@ -15,6 +15,7 @@ namespace CardHouse.attacking_scripts
         public bool onBoard = false;
         public bool hasStealth = false;
         public bool isUsingFlyingKick = false;
+        public bool isthisAPlayer = false;
         [Header("Sounds")]
         public AudioClip startAttackingSoundClipToPlay;
         public AudioClip whenDontAttackSoundClipToPlay;
@@ -183,12 +184,20 @@ namespace CardHouse.attacking_scripts
             isAttacking = false;
             if (currentHealth <= 0)
             {
-                Instantiate(destroyEffect, this.transform.position, this.transform.rotation);
-                if (onDeathSoundClipToPlay)
+                if (isthisAPlayer)
                 {
-                    PlayAudioClip(onDeathSoundClipToPlay);
+                    EndGameScript endGame = FindObjectOfType<EndGameScript>();
+                    if (endGame != null)
+                    {
+                        Debug.Log("Ending Game");
+                        endGame.EndGame(ownerId); 
+                    }
+                    else
+                    {
+                        Debug.Log("No End Game GameObject in Scene");
+                    }
                 }
-
+                Instantiate(destroyEffect, this.transform.position, this.transform.rotation);
                 Card thisCard = gameObject.GetComponent<Card>();
                 Debug.Log($"this is the group we are on {thisCard.Group}", thisCard.Group);
                 thisCard.Group.MountedCards.Remove(thisCard);

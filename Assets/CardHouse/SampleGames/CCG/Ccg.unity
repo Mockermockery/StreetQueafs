@@ -5162,7 +5162,7 @@ MonoBehaviour:
       Max: 0
       HasMin: 0
       Min: 0
-      RefillValue: 5
+      RefillValue: 1
   - Currencies:
     - CurrencyType: {fileID: 11400000, guid: 212771e626ce09b4fb35a62643ee67d0, type: 2}
       Amount: 1
@@ -5170,7 +5170,7 @@ MonoBehaviour:
       Max: 0
       HasMin: 0
       Min: 0
-      RefillValue: 5
+      RefillValue: 1
 --- !u!114 &6155219491839174573 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6155219491839174573, guid: 9aa470ac017dc5c4a841406dde1da1be, type: 3}

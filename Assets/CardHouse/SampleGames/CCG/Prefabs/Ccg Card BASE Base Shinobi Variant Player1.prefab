@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1453180718626954619, guid: e5049bbd6e1e9a4449a456af1bb3d7c6, type: 3}
       propertyPath: m_Name
-      value: Ccg Card BASE Base Shinobi Variant Player1 Variant
+      value: Ccg Card BASE Base Shinobi Variant Player1
       objectReference: {fileID: 0}
     - target: {fileID: 2035839332280103114, guid: e5049bbd6e1e9a4449a456af1bb3d7c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -51,6 +51,10 @@ PrefabInstance:
     - target: {fileID: 2035839332280103114, guid: e5049bbd6e1e9a4449a456af1bb3d7c6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3982772676160065878, guid: e5049bbd6e1e9a4449a456af1bb3d7c6, type: 3}
+      propertyPath: ownerId
+      value: Player1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
