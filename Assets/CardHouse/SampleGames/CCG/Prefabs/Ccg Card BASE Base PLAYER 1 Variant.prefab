@@ -20,6 +20,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 301293097865ea24a9e4369944a9c983, type: 3}
+    - target: {fileID: 2767427648382142347, guid: 475160306f15339468b85278aa23197c, type: 3}
+      propertyPath: IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873098180538373386, guid: 475160306f15339468b85278aa23197c, type: 3}
+      propertyPath: IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588797082122640022, guid: 475160306f15339468b85278aa23197c, type: 3}
+      propertyPath: IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4652304853193799500, guid: 475160306f15339468b85278aa23197c, type: 3}
+      propertyPath: IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5397299675611720048, guid: 475160306f15339468b85278aa23197c, type: 3}
       propertyPath: attack
       value: 0
@@ -29,12 +45,20 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 5397299675611720048, guid: 475160306f15339468b85278aa23197c, type: 3}
+      propertyPath: onBoard
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5397299675611720048, guid: 475160306f15339468b85278aa23197c, type: 3}
       propertyPath: ownerId
       value: Player1
       objectReference: {fileID: 0}
     - target: {fileID: 5397299675611720048, guid: 475160306f15339468b85278aa23197c, type: 3}
       propertyPath: currentHealth
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5542288249039133282, guid: 475160306f15339468b85278aa23197c, type: 3}
+      propertyPath: IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5775553985425423267, guid: 475160306f15339468b85278aa23197c, type: 3}
       propertyPath: m_LocalScale.x
@@ -127,6 +151,10 @@ PrefabInstance:
     - target: {fileID: 8280912525508271163, guid: 475160306f15339468b85278aa23197c, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -0.0097
+      objectReference: {fileID: 0}
+    - target: {fileID: 9094961927755097766, guid: 475160306f15339468b85278aa23197c, type: 3}
+      propertyPath: IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
