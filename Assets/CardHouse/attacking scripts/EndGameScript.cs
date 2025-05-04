@@ -10,7 +10,7 @@ namespace CardHouse.attacking_scripts
         public TMP_Text gameOverText;
         public string mainMenuSceneName = "Main Menu";
 
-        private void Awake()
+        private void Start()
         {
             endGameGameObject.gameObject.SetActive(false);
         }
